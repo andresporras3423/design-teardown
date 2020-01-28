@@ -13,14 +13,12 @@
     justify-content: center;
 }
 
-.latest-articles{
+.featured-articles{
     position: relative;
     display: flex;
-    height: 500px;
 }
 
-
-.latest-articles > div:nth-last-of-type(1){
+.featured-articles > div:nth-last-of-type(1){
     position: absolute;
     background-color: white;
     width: 100px;
@@ -33,4 +31,24 @@
     flex: 1;
     background-color:grey;
     margin: 2px;
+    padding-top: 15em;
+    padding-bottom: 4em;
+}
+
+.article-preview > h2 {
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+    font-family: sans-serif;
+}
+
+.article-preview > p {
+    font-family: sans-serif;
+    color: white;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.smashing-membership {
+    padding: 4em 5em 0 4em;
 }
