@@ -130,8 +130,12 @@
 .staff-section {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(4, auto);
-    grid-template-areas: ;
+    grid-template-rows: repeat(4, 200px);
+    grid-gap: 2px;
+}
+
+.staff-section > * {
+    background-color: grey;
 }
 
 .person-otw {
@@ -142,4 +146,112 @@
     width: 300px;
     height: 300px;
     background: white;
+    font-size: 48px;
+}
+
+.person-otw{
+    grid-row: 1;
+    grid-column: 1 / span 2;
+}
+
+.grid-2-1{
+    grid-row: 2;
+    grid-column: 1;
+}
+
+.grid-2-2{
+    grid-row: 2;
+    grid-column: 2;
+}
+
+.grid-3-1{
+    grid-row: 3;
+    grid-column: 1;
+}
+
+.grid-3-2{
+    grid-row: 3;
+    grid-column: 2;
+}
+
+.grid-4-1{
+    grid-row: 4;
+    grid-column: 1;
+}
+
+.grid-4-2{
+    grid-row: 4;
+    grid-column: 2;
+}
+
+.person-desc > h3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.person-otw > .person-desc > h3{
+    font-size: 18px;
+  }
+
+.staff > .person-desc > h3{
+  font-size: 24px;
+}
+
+.staff{
+    display: flex;
+}
+
+.staff > .profile-img {
+    width: 100px;
+    height: 100px;
+    background: white;
+    font-size: 24px;
+}
+
+.design-systems{
+    display: flex;
+    background-color: grey;
+}
+
+.design-systems > div:first-of-type{
+    flex:6;
+}
+
+.design-systems > div:first-of-type > * {
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+
+.design-systems > div:first-of-type > h2 {
+    font-size: 36px;
+}
+
+.design-systems > div:first-of-type > button {
+    font-size: 24px;
+}
+
+.design-systems > div:last-of-type{
+    flex:1;
+    height: 200px;
+    background: white;
+    font-size: 24px;
+}
+
+.design-systems > div:last-of-type > span{
+    font-size: 48px;
+}
+
+.curated-posts{
+    display: flex;
+    background-color: grey;
+}
+
+.curated-posts > *{
+    flex: 1;
+    background-color: white;
+}
+
+.curated-posts > div > h3{
+    font-size: 24px;
+    font-weight: 700;
 }
