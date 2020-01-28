@@ -50,5 +50,59 @@
 }
 
 .smashing-membership {
-    padding: 4em 5em 0 4em;
+    padding: 4em 5em 2em 4em;
+    background-color: grey;
 }
+
+.latest-articles{
+    display: flex;
+}
+
+.last-article{
+    flex:1;
+    margin: 2px;
+    background-color:grey;
+}
+
+.last-article > header > h2 {
+    font-size: 26px;
+}
+
+.smashing-members{
+    display: flex;
+    height: 200px;
+}
+
+.smashing-members > div{
+    flex: 1;
+    margin: 2px;
+    background-color: grey;
+}
+
+.smashing-members > div > * {
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+
+.smashing-members > div > span {
+    font-size: 48px;
+}
+
+.smashing-members > div > a {
+    font-size: 32px;
+}
+
+.smashing-members > div > p {
+    font-size: 18px;
+}
+
+.smashing-members > div > div > button {
+    width: 150px;
+}
+
+.smashing-members > .smashing-image{
+    flex:2;
+}
+
+
