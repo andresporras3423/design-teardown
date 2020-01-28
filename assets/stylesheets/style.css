@@ -119,9 +119,27 @@
 .incluse-components > * {
     margin: 3em;
 }
+
 .incluse-components > .inclusive-img {
     height: 366px;
     width: 366px;
     background-color: white;
     margin: 0 auto;
+}
+
+.staff-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(4, auto);
+    grid-template-areas: ;
+}
+
+.person-otw {
+    display: flex;
+}
+
+.person-otw > .profile-img {
+    width: 300px;
+    height: 300px;
+    background: white;
 }
