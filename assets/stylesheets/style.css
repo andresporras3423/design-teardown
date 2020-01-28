@@ -70,7 +70,6 @@
 
 .smashing-members{
     display: flex;
-    height: 200px;
 }
 
 .smashing-members > div{
@@ -105,4 +104,24 @@
     flex:2;
 }
 
+.incluse-components {
+    padding: 1em;
+    text-align: center;
+    background-color: gray;
+}
 
+.inclusive-components h2,
+.incluse-components header,
+.incluse-components p {
+    text-align: center;
+}
+
+.incluse-components > * {
+    margin: 3em;
+}
+.incluse-components > .inclusive-img {
+    height: 366px;
+    width: 366px;
+    background-color: white;
+    margin: 0 auto;
+}
