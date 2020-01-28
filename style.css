@@ -1,0 +1,36 @@
+.flex-navbar{
+    display: flex;
+}
+
+.flex-navbar > div {
+    flex: 1;
+    text-align: center;
+    background-color: grey;
+    margin: 2px;
+    height: 100px;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+
+.latest-articles{
+    position: relative;
+    display: flex;
+    height: 500px;
+}
+
+
+.latest-articles > div:nth-last-of-type(1){
+    position: absolute;
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    top: 5%;
+    left: 46.5%;
+}
+
+.article-preview{
+    flex: 1;
+    background-color:grey;
+    margin: 2px;
+}
