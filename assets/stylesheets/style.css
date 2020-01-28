@@ -5,12 +5,20 @@
 .flex-navbar > div {
     flex: 1;
     text-align: center;
-    background-color: grey;
+    background-color: rgb(50,50,50);
     margin: 2px;
     height: 100px;
     display: flex; 
     align-items: center;
     justify-content: center;
+}
+
+.flex-navbar >div:first-of-type{
+    background-color: rgb(100,100,100);
+}
+
+.flex-navbar >div:last-of-type{
+    background-color: rgb(100,100,100);
 }
 
 .featured-articles{
