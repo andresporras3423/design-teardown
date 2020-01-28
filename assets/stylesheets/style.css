@@ -305,3 +305,12 @@
     padding-bottom: 5em;
     text-align: center;
 }
+
+.topics-grid {
+    display: flex;
+}
+
+.topics-grid li {
+    display: inline-block;
+    text-decoration: none; 
+}
