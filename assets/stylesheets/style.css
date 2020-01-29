@@ -282,6 +282,11 @@
   padding-bottom: 10px;
 }
 
+.smashing-newsletter h2 {
+  font-size: 3em;
+  text-align: center;
+}
+
 .design-systems > div:first-of-type > h2 {
   font-size: 36px;
 }
@@ -315,11 +320,6 @@
   background-color: gray;
   padding: 2em;
   border-radius: 5px;
-}
-
-.smashing-newsletter h2 {
-  font-size: 3em;
-  text-align: center;
 }
 
 .smashing-newsletter h2,
