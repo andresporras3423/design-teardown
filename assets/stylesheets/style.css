@@ -17,8 +17,8 @@
   font-size: calc(0.1em + 0.6vw);
 }
 
-.flex-navbar > .logo,
-.flex-navbar > .search-btn {
+.flex-navbar .logo,
+.flex-navbar .search-btn {
   background-color: rgb(100, 100, 100);
 }
 
@@ -99,6 +99,23 @@
   margin: 2px;
 }
 
+.last-article > p {
+    font-size: 18px;
+  }
+
+.inclusive-components h2,
+.incluse-components header,
+.incluse-components p {
+  text-align: center;
+  color: white;
+}
+
+.design-systems h2,
+.design-systems p,
+.design-systems span {
+  color: white;
+}
+
 .smashing-members > div > span,
 .smashing-members > div > a,
 .smashing-members > div > p {
@@ -120,10 +137,6 @@
   font-size: 32px;
 }
 
-.last-article > p {
-  font-size: 18px;
-}
-
 .smashing-members > div > div > button {
   width: 150px;
 }
@@ -137,13 +150,6 @@
   padding: 1em;
   text-align: center;
   background-color: rgb(75, 75, 75);
-}
-
-.inclusive-components h2,
-.incluse-components header,
-.incluse-components p {
-  text-align: center;
-  color: white;
 }
 
 .incluse-components > * {
@@ -255,12 +261,6 @@
 .design-systems {
   display: flex;
   background-color: rgb(130, 130, 130);
-}
-
-.design-systems h2,
-.design-systems p,
-.design-systems span {
-  color: white;
 }
 
 .design-systems > div:first-of-type {
