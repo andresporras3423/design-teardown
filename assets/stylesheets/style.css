@@ -49,10 +49,10 @@ body {
 .featured-articles > div:nth-last-of-type(1) {
   position: absolute;
   background-color: white;
-  width: 100px;
+  width: calc(12%);
   height: 100px;
   top: 5%;
-  left: 46.5%;
+  left: 44%;
 }
 
 .article-preview {
