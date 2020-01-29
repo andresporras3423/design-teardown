@@ -180,7 +180,7 @@ a:link {
 }
 
 .section-title {
-  display: hide;
+  display: none;
 }
 
 .incluse-components {
