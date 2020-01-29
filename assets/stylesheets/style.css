@@ -238,6 +238,11 @@
   margin-bottom: 10px;
 }
 
+.curated-posts > div > h3 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
 .person-otw > .person-desc > h3 {
   font-size: 18px;
 }
@@ -268,8 +273,8 @@
 }
 
 .curated-posts > * {
- flex: 1;
- background-color: white;
+  flex: 1;
+  background-color: white;
 }
 
 .design-systems > div:first-of-type > * {
@@ -299,12 +304,6 @@
 .curated-posts {
   display: flex;
   background-color: grey;
-}
-
-
-.curated-posts > div > h3 {
-  font-size: 24px;
-  font-weight: 700;
 }
 
 .smashing-newsletter {
