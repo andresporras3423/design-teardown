@@ -1,3 +1,7 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
 .flex-navbar {
   display: flex;
 }
@@ -111,6 +115,7 @@
 
 .smashing-members {
   display: flex;
+  font-family: 'PT Sans', sans-serif;
 }
 
 .smashing-image {
@@ -393,7 +398,7 @@
   display: inline-block;
   padding-left: 10px;
   padding-right: 10px;
-  font-size: 18px;
+  font-size: 24px;
 }
 
 .final-links {
@@ -406,6 +411,7 @@
 .final-links li {
   display: inline-block;
   text-decoration: underline;
+  font-size: 18px;
 }
 
 .footer-image {
