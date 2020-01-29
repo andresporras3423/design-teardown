@@ -39,8 +39,8 @@
 }
 
 .topics-grid > div {
-    flex-basis: 100%;
-  }
+  flex-basis: 100%;
+}
 
 .featured-articles > div:nth-last-of-type(1) {
   position: absolute;
