@@ -2,6 +2,10 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
+a:link{
+    color: black;
+}
+
 .flex-navbar {
   display: flex;
 }
