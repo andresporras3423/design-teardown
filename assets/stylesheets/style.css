@@ -32,6 +32,12 @@
   display: flex;
 }
 
+.subs-container > div,
+.subs-container > button {
+  height: 100%;
+  flex: 1;
+}
+
 .featured-articles > div:nth-last-of-type(1) {
   position: absolute;
   background-color: white;
@@ -341,12 +347,6 @@
   background: white;
   margin: 10px auto;
   display: flex;
-}
-
-.subs-container > div,
-.subs-container > button {
-  height: 100%;
-  flex: 1;
 }
 
 .smashing-newsletter > .see-all {
