@@ -179,6 +179,10 @@ a:link{
   background-color: rgb(75, 75, 75);
 }
 
+.section-title {
+  display: hide;
+}
+
 .incluse-components {
   padding: 1em;
   text-align: center;
