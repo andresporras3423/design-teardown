@@ -287,6 +287,11 @@
   text-align: center;
 }
 
+.smashing-newsletter h2,
+.smashing-newsletter p {
+  text-align: center;
+}
+
 .design-systems > div:first-of-type > h2 {
   font-size: 36px;
 }
@@ -322,10 +327,7 @@
   border-radius: 5px;
 }
 
-.smashing-newsletter h2,
-.smashing-newsletter p {
-  text-align: center;
-}
+
 
 .smashing-newsletter .newsletter-img {
   margin: 0 auto;
