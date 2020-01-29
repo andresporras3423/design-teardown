@@ -93,7 +93,16 @@
 .last-article {
   flex: 1;
   margin: 2px;
-  background-color: rgb(200, 200, 200);
+  background-color: rgb(150, 150, 150);
+}
+
+.last-article:first-of-type,
+.last-article:last-of-type{
+    background-color: rgb(200, 200, 200);
+}
+
+.last-article.friends-supporters{
+    background-color: rgb(225, 225, 225);
 }
 
 .last-article h2 {
@@ -294,7 +303,6 @@
 
 .curated-posts > * {
   flex: 1;
-  background-color: white;
 }
 
 .design-systems > div:first-of-type > * {
@@ -327,7 +335,7 @@
 
 .curated-posts {
   display: flex;
-  background-color: grey;
+  background-color: rgb(100,100,100);
 }
 
 .smashing-newsletter {
@@ -362,6 +370,7 @@
   padding-top: 7em;
   padding-bottom: 5em;
   text-align: center;
+  background-color: rgb(200,200,200);
 }
 
 .magazine-topics {
